@@ -1,0 +1,18 @@
+# Git
+.git
+.gitignore
+
+# Python cache & venv
+__pycache__/
+.venv/
+venv/
+*.pyc
+
+# Secrets & Config
+.env
+.vscode/
+alembic.ini
+
+# Docker
+Dockerfile
+docker-compose.yml

@@ -1,3 +1,3 @@
-from . import config
-from . import security
-from . import service
+from . import config as config
+from . import security as security
+from . import services as services
