@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "FastAPI: Run dev",
+            "type": "python",
+            "request": "launch",
+        // We use "module" to run "python -m fastapi"
+            "module": "fastapi",
+            "args": [
+            "dev",
+            "geoattend/main.py"
+            ],
+            "console": "integratedTerminal",
+        // "cwd" ensures the command runs from your project root,
+        // so your .env file is found correctly.
+            "cwd": "${workspaceFolder}",
+            "jinja": true,
+            "justMyCode": true
+        }
+    ]
+}
