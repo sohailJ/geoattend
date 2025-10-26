@@ -1,0 +1,1 @@
+starting geoattendance app using FASTAPI and Vue.js
